@@ -1,0 +1,34 @@
+answer = input("Do you want to play a game? *evil laugh*" ).lower().strip()
+def play():
+    user = input("'yes', 'no'")
+for answers in answer:
+    if answer == 'yes':
+        continue
+    print("Scaredy cat. Pretend it's a Buzzfeed quiz. I know you like those.")
+    break
+
+food = input("\nFirst question is... Do you enjoy spicy food?").lower().strip()
+def foods():
+    user = input("'yes', 'no'")
+for foodie in food:
+    if food == 'yes':
+        continue
+    print("Can't handle the heat I see.")
+    break
+
+season = input("\nWhat's your favorite season? ").lower().strip()
+def seasons():
+    user = input("'spring', 'summer', 'fall', 'autumn', 'winter'")
+for trees in season:
+    if season == "":
+        print("Hmmm... I never would of guessed that!\n")
+    break
+
+print("\nYou've reached the end! Now I shall grant you one wish. Just kidding, what do I look like? I'm just Python code. \nBut according to my calculations, your ideal next vacation spot is...\n\n")
+
+for foodie in food:
+    if food == 'no':
+        print("*******Surprise! It's Spain!*******")
+    elif food == 'yes':
+        print("*******Surprise! It's South Korea!*******")
+    break
